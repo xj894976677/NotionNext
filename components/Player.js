@@ -60,7 +60,7 @@ const Player = () => {
   }, [])
 
   return (
-    <div className={playerVisible ? 'visible' : 'invisible'}>
+    <div className={playerVisible ? 'visible' : 'invisible'} style={{ textAlign: 'right' }}>
       <link
         rel='stylesheet'
         type='text/css'
