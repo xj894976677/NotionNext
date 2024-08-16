@@ -26,7 +26,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '项日葵', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '写点代码，拍点照片，爬爬山，徒徒步，看看代码外的世界', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'http://xiangjun.online', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://xiangjun.online', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '项日葵, 博客, 摄影, 交流, 后端, 技术, 码农', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
@@ -349,7 +349,7 @@ const BLOG = {
   // twikoo
   COMMENT_TWIKOO_ENV_ID: process.env.NEXT_PUBLIC_COMMENT_ENV_ID || 'https://josephxiang-twikoo.hf.space', // TWIKOO后端地址 腾讯云环境填envId；Vercel环境填域名，教程：https://tangly1024.com/article/notionnext-twikoo
   COMMENT_TWIKOO_COUNT_ENABLE:
-    process.env.NEXT_PUBLIC_COMMENT_TWIKOO_COUNT_ENABLE || true, // 博客列表是否显示评论数
+    process.env.NEXT_PUBLIC_COMMENT_TWIKOO_COUNT_ENABLE || false, // 博客列表是否显示评论数
   COMMENT_TWIKOO_CDN_URL:
     process.env.NEXT_PUBLIC_COMMENT_TWIKOO_CDN_URL ||
     'https://cdn.staticfile.net/twikoo/1.6.17/twikoo.min.js', // twikoo客户端cdn
