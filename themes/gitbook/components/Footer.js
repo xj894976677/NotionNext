@@ -32,11 +32,10 @@ const Footer = ({ siteInfo }) => {
       </div>
 
       <div className='text-xs font-serif'>
-        Powered By{' '}
         <a
-          href='https://github.com/tangly1024/NotionNext'
-          className='underline text-gray-500 dark:text-gray-300'>
-          NotionNext {siteConfig('VERSION')}
+          href='https://github.com/xj894976677'
+          className='dark:text-gray-300'>
+          技术宅改变世界 
         </a>
       </div>
 

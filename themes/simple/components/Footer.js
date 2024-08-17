@@ -22,8 +22,11 @@ export default function Footer (props) {
                 {/* <a href="#" className="text-black no-underline hover:underline">Privacy Policy</a> */}
                 {siteConfig('BEI_AN') && (<a href="https://beian.miit.gov.cn/" className="text-black dark:text-gray-200 no-underline hover:underline ml-4">{siteConfig('BEI_AN')} </a>)}
                 <span className='no-underline ml-4'>
-                    Powered by
-                    <a href="https://github.com/tangly1024/NotionNext" className=' hover:underline'> NotionNext {siteConfig('VERSION')}  </a>
+                <a
+                    href='https://github.com/xj894976677'
+                    className='dark:text-gray-300'>
+                    技术宅改变世界 
+                </a>
                 </span>
             </div>
         </div>
